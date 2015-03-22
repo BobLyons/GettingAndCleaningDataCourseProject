@@ -15,13 +15,13 @@ At a high level, the run_analysis.R script produces the tidy_data.txt data set a
 
 # Columns
 
-This section documents the columns in the tidy_data.txt data set. This section has a separate subsection for each column. The heading of each subsection is the column name followed by the data type of the column in parentheses. 
+This section documents the columns of the tidy_data.txt data set. This section has a separate subsection for each column. The heading of each subsection is the column name followed by the data type of the column in parentheses. 
 
 Regarding columns tBodyAcc.mean.X through fBodyBodyGyroJerkMag.std, inclusive:
 
-These columns correspond to a subset of the features in the source data set (namely, the features whose feature names contain 'mean(' or 'std('). The feature names in the source data set are not valid R variable names; thus, the column names for the tidy_data.txt data set are a transformation of the feature names in the source data set. See the run_analysis.R script for details.
+These columns correspond to a subset of the features of the source data set (namely, the features whose feature names contain 'mean(' or 'std('). The feature names of the source data set are not valid R variable names; thus, the column names for the tidy_data.txt data set are a transformation of the feature names of the source data set. See the run_analysis.R script for details.
 
-Each of these columns (tBodyAcc.mean.X through fBodyBodyGyroJerkMag.std) is the average value for the activity and subject. Specifically, it's the average of the values in the corresponding feature of the source data set (for the activity and subject).
+Each of these columns (tBodyAcc.mean.X through fBodyBodyGyroJerkMag.std) is the average value for the activity and subject. Specifically, it's the average of the values of the corresponding feature of the source data set (for the activity and subject).
 
 ## activity (chr)  
 The activity, the valid values of which are as follows: "STANDING", "SITTING", "LAYING", "WALKING", "WALKING_UPSTAIRS", and "WALKING_DOWNSTAIRS".
