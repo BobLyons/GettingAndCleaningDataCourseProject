@@ -19,9 +19,9 @@ This section documents the columns in the tidy_data.txt data set. This section h
 
 Regarding columns tBodyAcc.mean.X through fBodyBodyGyroJerkMag.std, inclusive:
 
-These columns correspond to a subset of the features in the original data set (namely, the features whose feature names contain 'mean(' or 'std('). The feature names in the original data set are not valid R variable names; thus, the column names in the tidy_data.txt data set are a transformation of the feature names in the original data set. See the run_analysis.R script for details.
+These columns correspond to a subset of the features in the source data set (namely, the features whose feature names contain 'mean(' or 'std('). The feature names in the source data set are not valid R variable names; thus, the column names for the tidy_data.txt data set are a transformation of the feature names in the source data set. See the run_analysis.R script for details.
 
-Each of these columns (tBodyAcc.mean.X through fBodyBodyGyroJerkMag.std) is the average value for the activity and subject. Specifically, it's the average of the values in the corresponding feature of the original data set (for the activity and subject).
+Each of these columns (tBodyAcc.mean.X through fBodyBodyGyroJerkMag.std) is the average value for the activity and subject. Specifically, it's the average of the values in the corresponding feature of the source data set (for the activity and subject).
 
 ## activity (chr)  
 The activity, the valid values of which are as follows: "STANDING", "SITTING", "LAYING", "WALKING", "WALKING_UPSTAIRS", and "WALKING_DOWNSTAIRS".
